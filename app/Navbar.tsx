@@ -19,16 +19,16 @@ export default function Navbar() {
       <div className="w-full bg-brand-pink text-white text-xs py-2 px-4 flex flex-col md:flex-row justify-between items-center gap-2 border-b border-white/10">
         <div className="flex items-center gap-2 text-center md:text-left">
           <span>📍</span>
-          <span>J-26, P.C. Colony Road, Kankarbagh, Patna</span>
+          <span>1st Floor, Heera Panna Complex, Boring Road Chauraha, Patna</span>
         </div>
         <div className="flex items-center gap-6">
-          <a href="tel:+919576203418" className="hover:text-brand-pink-light transition-colors flex items-center gap-1 font-semibold">
+          <a href="tel:+918460427943" className="hover:text-brand-pink-light transition-colors flex items-center gap-1 font-semibold">
             <span>📞</span>
-            <span>+91 95762 03418</span>
+            <span>+91 84604 27943</span>
           </a>
           <div className="flex items-center gap-3">
             <a
-              href="https://www.instagram.com/monicasbeautylounge/"
+              href="https://www.instagram.com/"
               target="_blank"
               rel="noopener noreferrer"
               title="Instagram Page"
@@ -54,10 +54,10 @@ export default function Navbar() {
         {/* Brand Logo */}
         <a href="#home" className="flex flex-col select-none" onClick={closeMenu}>
           <span className="font-serif text-2xl font-bold text-brand-charcoal tracking-wide flex items-center gap-1.5">
-            Monica's <span className="text-brand-pink">Lounge</span>
+            Doll Makeup <span className="text-brand-pink">Villa</span>
           </span>
           <span className="text-[10px] uppercase tracking-widest text-brand-gold font-semibold -mt-1">
-            Bridal Studio &amp; Academy
+            Premium Unisex Salon &amp; Academy
           </span>
         </a>
 

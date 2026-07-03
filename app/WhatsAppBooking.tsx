@@ -82,7 +82,7 @@ export default function WhatsAppBooking() {
       .join("\n");
     const totalVal = calculateTotal();
 
-    const rawMessage = `Hello Monica's Beauty Lounge!
+    const rawMessage = `Hello Doll Makeup Villa!
 
 I would like to book a salon appointment:
 
@@ -100,7 +100,7 @@ ${servicesText}
 Please confirm my booking. Thank you!`;
 
     const encodedMessage = encodeURIComponent(rawMessage);
-    const whatsappUrl = `https://wa.me/919576203418?text=${encodedMessage}`;
+    const whatsappUrl = `https://wa.me/918460427943?text=${encodedMessage}`;
     window.open(whatsappUrl, "_blank");
     setStep(4);
   };

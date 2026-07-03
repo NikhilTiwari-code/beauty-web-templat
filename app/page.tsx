@@ -9,23 +9,23 @@ const HERO_SLIDES = [
   {
     image: "/images/bridal_makeup.png",
     title: "Signature Bridal Makeup",
-    subtitle: "Monica Sinha's specialized HD & Airbrush bridal packages. Designed to make you look flawless on your big day.",
+    subtitle: "Suman Mam's specialized HD & Airbrush bridal packages. Designed to make you look flawless on your big day.",
     link: "#booking",
     cta: "Book Bridal Package"
   },
   {
-    image: "/images/hair_styling.png",
-    title: "Expert Hair Care & Coloring",
-    subtitle: "Global hair coloring, Keratin smoothing, and precision cuts. Bring life back to your hair.",
-    link: "#services",
-    cta: "Explore Hair Services"
+    image: "/images/bridal_makeup_2.png",
+    title: "Royal HD Bridal Art",
+    subtitle: "Exquisite traditional styling, heavy lehenga draping, and flawless HD makeovers for your special day.",
+    link: "#booking",
+    cta: "Book Royal Package"
   },
   {
-    image: "/images/nail_art.png",
-    title: "Luxury Nail Extensions & Art",
-    subtitle: "Premium gel nail extensions and custom handcrafted designs. Styled to perfection.",
-    link: "#services",
-    cta: "View Nail Services"
+    image: "/images/bridal_makeup_3.png",
+    title: "Airbrush Bridal Perfection",
+    subtitle: "Long-lasting, sweat-proof, and premium airbrush makeup tailored to make you glow under studio lights.",
+    link: "#booking",
+    cta: "Book Airbrush Package"
   },
   {
     image: "/images/skincare_facial.png",
@@ -115,13 +115,13 @@ export default function Home() {
       {/* WELCOME INTRO */}
       <section className="py-20 px-4 max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-12" id="about">
         <div className="w-full lg:w-1/2 space-y-6 ">
-          <span className="text-xs font-bold tracking-widest text-brand-gold uppercase block">Welcome to Monica's Lounge</span>
+          <span className="text-xs font-bold tracking-widest text-brand-gold uppercase block">Welcome to Doll Makeup Villa</span>
           <h3 className="font-serif text-3xl sm:text-4xl font-bold text-brand-charcoal leading-tight">
-            Elevating Bridal Artistry &amp; Hair styling in Patna
+            Elevating Bridal Artistry &amp; Luxury Grooming at Boring Road, Patna
           </h3>
           <div className="w-16 h-0.5 bg-brand-pink"></div>
           <p className="text-brand-charcoal/70 text-sm sm:text-base leading-relaxed font-light">
-            With over 15 years of professional makeup experience, **Monica's Beauty Lounge** stands as Kankarbagh's premier salon. Founded by certified bridal artist **Monica Sinha**, we bring modern cosmetics science and classical artistry to curate your dream look.
+            Established in late 2024, **Doll Makeup Villa** stands as Boring Road's premier unisex salon. Founded and led by certified bridal artist **Suman Mam**, we bring modern cosmetics science and classical artistry to curate your dream look.
           </p>
           <p className="text-brand-charcoal/70 text-sm sm:text-base leading-relaxed font-light">
             Whether you want custom airbrush makeup for your wedding, a luxurious keratin smoothing treatment, or creative gel extensions, we customize every treatment using premium branded products (MAC, Kryolan, NARS, O3+) to guarantee you look absolutely breathtaking.
@@ -159,7 +159,7 @@ export default function Home() {
               <p className="text-xs text-brand-charcoal/60 max-w-xs mx-auto leading-relaxed">
                 "Bridal makeup is not about painting a face; it is about bringing out the inner radiance of a bride."
               </p>
-              <p className="text-xs font-bold tracking-widest text-brand-gold uppercase">— Monica Sinha, Founder</p>
+              <p className="text-xs font-bold tracking-widest text-brand-gold uppercase">— Suman Mam, Founder</p>
               <a
                 href="#booking"
                 className="inline-flex items-center justify-center px-6 py-2.5 bg-brand-charcoal hover:bg-brand-pink text-white text-xs font-bold tracking-widest rounded-lg transition-colors shadow-md mt-4"
@@ -433,7 +433,7 @@ export default function Home() {
                 <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
               </div>
               <p className="text-sm text-brand-charcoal/70 italic leading-relaxed font-light">
-                "Monica's Lounge ki gel nail extensions bilkul magical hain. Price points bohot hi reasonable hain aur extensions 4 weeks tak perfect condition me rahe. I highly recommend Monica Sinha for party styling!"
+                "Doll Makeup Villa ki gel nail extensions bilkul magical hain. Price points bohot hi reasonable hain aur extensions 4 weeks tak perfect condition me rahe. I highly recommend Suman Mam for party styling!"
               </p>
             </div>
             <div className="flex items-center gap-3 pt-2">
@@ -442,7 +442,7 @@ export default function Home() {
               </div>
               <div>
                 <p className="text-xs font-bold tracking-widest text-brand-pink uppercase">Riya Verma</p>
-                <p className="text-[10px] text-brand-charcoal/40 uppercase mt-0.5">Kankarbagh Client</p>
+                <p className="text-[10px] text-brand-charcoal/40 uppercase mt-0.5">Boring Road Client</p>
               </div>
             </div>
           </div>
@@ -455,7 +455,7 @@ export default function Home() {
           {/* Contact details */}
           <div className="space-y-6 ">
             <span className="text-xs font-bold tracking-widest text-brand-gold uppercase block">Connect With Us</span>
-            <h3 className="font-serif text-3xl sm:text-4xl font-bold">Contact Monica's Lounge</h3>
+            <h3 className="font-serif text-3xl sm:text-4xl font-bold">Contact Doll Makeup Villa</h3>
             <p className="text-white/60 text-sm leading-relaxed font-light max-w-md">
               We look forward to helping you realize your perfect glamour transformation. Reach out to schedule bridal trials, parlor packages, or training inquiries.
             </p>
@@ -465,22 +465,22 @@ export default function Home() {
                 <span className="text-xl">📍</span>
                 <div>
                   <p className="text-xs font-bold tracking-widest uppercase text-brand-gold">Address</p>
-                  <p className="text-sm text-white/70 mt-1 font-light">J-26, P.C. Colony Road, Kankarbagh, Lohia Nagar, Patna, Bihar - 800020</p>
-                  <p className="text-xs text-white/40 italic mt-0.5">Near Shivajee Park Tempo Stand, opposite Chowdhury Medical Hall</p>
+                  <p className="text-sm text-white/70 mt-1 font-light">1st Floor, Heera Panna Complex, Boring Road Chauraha, Patna, Bihar - 800001</p>
+                  <p className="text-xs text-white/40 italic mt-0.5">Near Boring Road Chauraha, above Axis Bank</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
                 <span className="text-xl">📞</span>
                 <div>
                   <p className="text-xs font-bold tracking-widest uppercase text-brand-gold">Phone Call / WhatsApp</p>
-                  <a href="tel:+919576203418" className="text-sm text-brand-pink hover:text-white transition-colors block mt-1">+91 95762 03418</a>
+                  <a href="tel:+918460427943" className="text-sm text-brand-pink hover:text-white transition-colors block mt-1">+91 84604 27943</a>
                 </div>
               </div>
               <div className="flex items-start gap-4">
                 <span className="text-xl">⏰</span>
                 <div>
                   <p className="text-xs font-bold tracking-widest uppercase text-brand-gold">Studio Hours</p>
-                  <p className="text-sm text-white/70 mt-1 font-light">10:00 AM – 08:30 PM (Open all days)</p>
+                  <p className="text-sm text-white/70 mt-1 font-light">10:30 AM – 08:30 PM (Open all days)</p>
                 </div>
               </div>
             </div>
@@ -493,14 +493,14 @@ export default function Home() {
                 🗺️
               </div>
               <div className="space-y-2">
-                <h4 className="font-serif text-lg font-bold">Kankarbagh Location</h4>
+                <h4 className="font-serif text-lg font-bold">Boring Road Chauraha Location</h4>
                 <p className="text-xs text-white/60 max-w-xs mx-auto leading-relaxed">
-                  Our salon is located in Lohia Nagar, facing P.C. Colony road. Easily accessible from Patna Junction.
+                  Our salon is located inside Heera Panna Complex, exactly at Boring Road Chauraha. Easily accessible.
                 </p>
               </div>
               <div className="border-t border-white/5 pt-4">
                 <a
-                  href="https://maps.google.com/?q=Monica's+Beauty+Lounge+Kankarbagh+Patna"
+                  href="https://maps.google.com/?q=Doll+Makeup+Villa+Boring+Road+Patna"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-1.5 bg-brand-pink hover:bg-brand-pink-hover text-white text-xs font-bold tracking-widest px-6 py-2.5 rounded-lg transition-colors"
@@ -517,9 +517,9 @@ export default function Home() {
       <footer className="bg-brand-charcoal text-white/40 py-10 px-4 border-t border-white/5">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4 text-center md:text-left">
           <div>
-            <h5 className="font-serif text-base font-bold text-white/90">Monica's Beauty Lounge</h5>
-            <p className="text-[10px] text-brand-gold uppercase tracking-widest font-semibold mt-0.5">Bridal Studio &amp; Academy</p>
-            <p className="text-[11px] text-white/50 mt-1 font-light">© 2026 Monica's Lounge Kankarbagh Patna. All rights reserved.</p>
+            <h5 className="font-serif text-base font-bold text-white/90">Doll Makeup Villa</h5>
+            <p className="text-[10px] text-brand-gold uppercase tracking-widest font-semibold mt-0.5">Premium Unisex Salon &amp; Academy</p>
+            <p className="text-[11px] text-white/50 mt-1 font-light">© 2026 Doll Makeup Villa Boring Road Patna. All rights reserved.</p>
           </div>
 
           <div className="flex gap-6 text-xs font-semibold tracking-wider uppercase text-white/70">
